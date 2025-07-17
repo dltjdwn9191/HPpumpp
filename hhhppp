@@ -1,0 +1,174 @@
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Handol Pumps | Sustainability</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('OPPPPP.jpg') no-repeat center 30% fixed;
+      background-size: cover;
+      color: #001f4d;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #ffffff;
+      color: #001f4d;
+      text-align: center;
+      padding: 2px 8px;
+      border-bottom: 2px solid #bcd4f6;
+    }
+
+    header img {
+      max-width: 45%;
+      height: auto;
+      display: block;
+      margin: 0 auto 4px auto;
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      flex: 1;
+      padding: 5px 0;
+    }
+
+    .box {
+      background-color: #ffffff;
+      border: 2px solid #bcd4f6;
+      border-radius: 10px;
+      padding: 10px 14px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.04);
+      width: 300px;
+      height: 400px;
+      overflow-y: auto;
+    }
+
+    .sidebar h2 {
+      font-size: 1.1em;
+      margin-bottom: 8px;
+      text-align: center;
+      color: #1423a0;
+      font-weight: bold;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .sidebar ul li {
+      margin: 6px 0;
+    }
+
+    .sidebar ul li a {
+      text-decoration: none;
+      color: #2a5d9f;
+      font-weight: 600;
+      transition: color 0.3s ease;
+      font-size: 0.9em;
+    }
+
+    .sidebar ul li a:hover {
+      color: #2a5d9f;
+    }
+
+    .content section {
+      margin-bottom: 14px;
+    }
+
+    .content h3 {
+      color: #2a5d9f;
+      font-size: 0.95em;
+      border-left: 4px solid #2a5d9f;
+      padding-left: 8px;
+      margin-bottom: 4px;
+    }
+
+    .content p {
+      line-height: 1.45;
+      font-size: 0.86em;
+    }
+
+    footer {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 8px;
+      font-size: 0.8em;
+    }
+
+    footer div {
+      color: #1423a0;
+    }
+
+    @media (max-width: 768px) {
+      main {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px 0;
+      }
+
+      .box {
+        width: 90%;
+        height: auto;
+        max-height: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img alt="Handol Pumps Logo" src="handolpumpbannernavy.jpg"/>
+  </header>
+
+  <main>
+    <nav class="box sidebar">
+      <h2>Sustainability</h2>
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#environment">Environmental</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#governance">Governance</a></li>
+        <li><a href="#goals">Goals</a></li>
+      </ul>
+    </nav>
+
+    <div class="box content">
+      <section id="overview">
+        <h3>🌱 Overview</h3>
+        <p>We build a sustainable future through responsible practices, environmental care, and community value.</p>
+      </section>
+      <section id="environment">
+        <h3>🌍 Environmental</h3>
+        <p>We improve energy efficiency, reduce waste, and optimize our processes to lower environmental impact.</p>
+      </section>
+      <section id="community">
+        <h3>🤝 Community</h3>
+        <p>We engage locally through volunteering and social responsibility activities that create real impact.</p>
+      </section>
+      <section id="governance">
+        <h3>📜 Governance</h3>
+        <p>We ensure ethical operations through fair trade, legal compliance, and transparent communication.</p>
+      </section>
+      <section id="goals">
+        <h3>🎯 Goals</h3>
+        <p>We track measurable sustainability goals for continued improvement in all areas.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div>© 2025 Handol Pumps Co., Ltd. All rights reserved.</div>
+  </footer>
+</body>
+</html>
